@@ -77,6 +77,7 @@ document.querySelectorAll(".elem").forEach(function (elem) {
 
     gsap.to(elem.querySelector("h1"), {
       opacity: 0.7,
+      x: -20,
     });
 
     gsap.to(document.querySelector("#minicircle"), {
@@ -102,6 +103,7 @@ document.querySelectorAll(".elem").forEach(function (elem) {
 
     gsap.to(elem.querySelector("h1"), {
       opacity: 0.2,
+      x: 20,
     });
 
     gsap.to(document.querySelector("#minicircle"), {
